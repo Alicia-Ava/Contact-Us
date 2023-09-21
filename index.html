@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('contact 2.jpg');
+    background-size: cover; /* ছবিটি স্ক্রিনের সাথে সম্পূর্ণভাবে বাঁধতে ব্যবহার হয় */
+    background-attachment: fixed; /* ছবিটি স্ক্রোল করার সাথে একই থাকবে */
+    background-repeat: no-repeat; /* ছবিটি পুনরাবৃত্তি করা হবে না */
+    background-position: center center; /* ছবির মধ্যে সেন্টার সেন্টার দেখানো হবে */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: ;
+    color: ##7016f0;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.contact-form {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3417;
+}
+/* CSS for Footer Positioning */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: ; /* আপনি ইচ্ছা মতো রঙ নির্বাচন করতে পারেন */
+    color: #fff; /* ফুটার টেক্সটের রঙ */
+    padding: 10px; /* প্যাডিং সংখ্যা আপনার ইচ্ছা মতো সেট করুন */
+    text-align: center;
+    z-index: 999; /* যদি অন্য উপাদানের উপরে থাকে তাহলে অতিরিক্ত উপাদানের উপরে দেখানো হবে */
+}
+.contact-form h1 {
+    font-size: 66px; /* ফন্ট সাইজ পরিবর্তন করুন */
+    font-family: bold;
+   
+    color: #000000; /* ফন্ট কালার পরিবর্তন করুন */
+}
+.contact-form p {
+    font-size: 36px; /* ফন্ট সাইজ পরিবর্তন করুন */
+    color: #ff3e3b; /* ফন্ট কালার পরিবর্তন করুন */
+}
+label {
+    font-size: 25px; /* লেবেল ফন্ট সাইজ পরিবর্তন করুন */
+    color: #000000; /* লেবেল কালার পরিবর্তন করুন */
+    font-family: bold;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Add more CSS for form validation and responsiveness */</style>
+</head>
+<body>
+    
+
+    <section class="contact-form">
+        <h1>Contact Us</h1>
+        <p>Have questions or feedback? Send us a message!</p>
+        <form action="submit.php" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Alicia Ava</p>
+    </footer>
+</body>
+  </html>
+  
